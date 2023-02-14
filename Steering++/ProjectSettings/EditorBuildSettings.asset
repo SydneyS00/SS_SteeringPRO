@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Assets/Scenes/SS_Seek.unity
     guid: 799627b1e453a5b4d8060156543f3727
+  - enabled: 1
+    path: Assets/Assets/Scenes/SS_Wander.unity
+    guid: a7bd3b3e72f4b904caeda94cb7acafae
   m_configObjects: {}

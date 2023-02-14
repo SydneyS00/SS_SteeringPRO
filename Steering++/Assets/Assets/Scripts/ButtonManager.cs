@@ -13,7 +13,8 @@ public class ButtonManager : MonoBehaviour
 
     [Header ("Buttons")]
     public Button seekButton;
-    public Button fleeButton; 
+    public Button fleeButton;
+    public Button wanderButton; 
 
 
     public void goToSeek()
@@ -26,5 +27,11 @@ public class ButtonManager : MonoBehaviour
     {
         SceneManager.LoadScene("SS_Flee");
         Debug.Log("You have loaded into the Fleeing Scene!");
+    }
+
+    public void goToWander()
+    {
+        SceneManager.LoadScene("SS_Wander");
+        Debug.Log("You have loaded into the Wander Scene!");
     }
 }
